@@ -1,4 +1,4 @@
 # claude-code-partner-certification
-## Introduction agent skills
+## Introduction agent skills \
 ### What are skills
 
