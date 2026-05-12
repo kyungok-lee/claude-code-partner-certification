@@ -20,6 +20,19 @@
          - frontmatter 이후는 skill 로드 이후 çlaude가 따라야 하는 명령어를 적는다.
 
 * Configuration and multi-file skills
+  - description을 잘 써야 하고, 좋은 description은 아래 2개 질문에 대한 명확한 답을 정리해서 적는 것임(뭐 하는 스킬인지, 언제 클로드가 쓰면 되는지)
+     - What does the skill do?
+     - When should Claude use it?
+  - allowed-tools : default 는 모든 툴을 사용하는 것이고, 한정시켜야만 특정툴만 사용한다.
+  - progressive disclosure : 500줄을 넘기면 별도 reference 파일들로 구성해라.
+     - The open standard suggests organizing your skill directory with:
+     - scripts/ — Executable code
+     - references/ — Additional documentation
+     - assets/ — Images, templates, or other data files
+
+
+What does the skill do?
+When should Claude use it?
 * Skills vs. other Claude Code features
 * Sharing skills
 * Troubleshooting skills
