@@ -29,7 +29,8 @@
      - scripts/ — Executable code
      - references/ — Additional documentation
      - assets/ — Images, templates, or other data files
-
+   
+  - Using script : The key instruction to include in your SKILL.md is to tell Claude to **run the script, not read** it.
 
 What does the skill do?
 When should Claude use it?
