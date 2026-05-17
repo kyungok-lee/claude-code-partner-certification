@@ -32,8 +32,13 @@
    
   - Using script : The key instruction to include in your SKILL.md is to tell Claude to **run the script, not read** it.
 
-What does the skill do?
-When should Claude use it?
-* Skills vs. other Claude Code features
+* What does the skill do?
+  - 스킬, claude.md, sub-sgent, hook, mcp가 있음
+  - 각각 호출되는 방식이 다름. 
 * Sharing skills
+  - git repository로 배포 가능
+  - plugin marketplace 배포 가능
+  - enterprise setting 으로 가능
+    
 * Troubleshooting skills
+  - SKILL.md 파일에 잘 작성되어 있어야 하고, 실행모드, 엔ㅌㅓ프라이즈 등 상위 권한, description 충돌 등을 피해야 한다.
